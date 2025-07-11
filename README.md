@@ -92,3 +92,18 @@ Each HTML page connects to these controller endpoints:
     spring.datasource.username=YOUR_DB_USERNAME
     spring.datasource.password=YOUR_DB_PASSWORD
     spring.jpa.hibernate.ddl-auto=update
+
+---
+
+### 🚀 Run Instructions
+
+# Step 1: Clone the repo
+git clone https://github.com/your-username/employee-crud-app.git
+cd employee-crud-app
+
+# Step 2: Build the project
+mvn clean install
+
+# Step 3: Run the application
+mvn spring-boot:run
+
