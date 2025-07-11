@@ -88,7 +88,8 @@ Each HTML page connects to these controller endpoints:
    ```sql
    CREATE DATABASE emp_crud;
 2. Configure your DB credentials in src/main/resources/application.properties:
-    ```spring.application.name=crud.employee
+    ```
+       spring.application.name=crud.employee
        spring.datasource.url=jdbc:mysql://localhost:3306/emp_crud
        spring.datasource.username=YOUR_DB_USERNAME
        spring.datasource.password=YOUR_DB_PASSWORD
