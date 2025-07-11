@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <title> </title>
+         
+           <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 40px;
+            background-color: #f4f7f9;
+            color: #333;
+        }
+        
+        h3 {
+             text-align: center;
+             color: #2c3e50;
+             margin-top: 20px;
+             font-size: 26px;
+        }
+        
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        th, td {
+            padding: 12px 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: white;
+            background-color: #3498db;
+            margin: 0 5px;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+   </head>
+   <body>
+         <h3>Employee Details:</h3>
+         <table border="">
+             <thead>
+               <tr>
+                 <th>ID</th>
+                 <th>Name</th>
+                 <th>Department</th>
+                 <th>Salary</th>
+               </tr>
+             </thead>
+             
+             <tbody>
+                <tr th:each = "emp : ${empList}">
+                  <td th:text="${emp.id}">ID</td>
+                  <td th:text="${emp.name}">Name</td>
+                  <td th:text="${emp.department}">Department</td>
+                  <td th:text="${emp.salary}">Salary</td>
+                </tr>
+             </tbody>
+         </table>
+   </body>
+</html>

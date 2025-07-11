@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Create New Employee</title>
+     
+      <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+      color: #2c3e50;
+      font-size: 24px;
+    }
+
+    .form-container {
+      background-color: #ffffff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: #34495e;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+  </style>
+     
+   </head>
+   <body>
+     <h3>Fill Employee Info:</h3>
+     
+      
+     <form action="create" method="post">
+        
+        <label>Employee ID:</label>
+        <input type="text" name="id"> <br><br>
+        
+        <label>Employee Name:</label>
+        <input type="text" name="name"> <br><br>
+        
+        <label>Employee Department:</label>
+        <input type="text" name="department"> <br><br>
+        
+        <label>Employee Salary:</label>
+        <input type="text" name="salary"> <br><br>
+        
+        <input type="submit" value="ADD EMPLOYEE">
+        
+     </form>
+     
+  
+   </body>
+</html>
+
+<!-- method is used mention what type of request we are sending, if request is get then don.t mention method by default it will get request. -->

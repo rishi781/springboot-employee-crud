@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee CRUD Application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: #ffffff;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h3 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    a {
+      display: block;
+      margin: 12px 0;
+      padding: 12px;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+      font-size: 16px;
+    }
+
+    a:hover {
+      background-color: #2980b9;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+
+      a {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h3>Employee CRUD Application</h3>
+    <a href="createPage">Create New Employee</a> 
+    <a href="searchPage">Search for Existing Employee</a> 
+    <a href="updatePage">Update Existing Employee Info</a> 
+    <a href="deletePage">Delete Existing Employee Info</a> 
+    <a href="viewAll">View All Employees</a>
+  </div>
+
+</body>
+</html>
+
+
+<!-- http://localhost:8080/ -->
