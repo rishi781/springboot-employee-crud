@@ -26,6 +26,34 @@ A full-stack Spring Boot web application that allows users to manage employee re
 
 ---
 
+## 📸 Screenshots
+
+- Home Page
+  
+  <img width="1920" height="845" alt="Screenshot (531)" src="https://github.com/user-attachments/assets/6f646244-44fe-4409-88fa-40551b7c4258" />
+
+- Create Page
+
+  <img width="1920" height="835" alt="Screenshot (533)" src="https://github.com/user-attachments/assets/69cca44c-ba53-414a-b1fa-b7fe919864fd" />
+
+- Search Page
+
+  <img width="1920" height="830" alt="Screenshot (534)" src="https://github.com/user-attachments/assets/6e62e418-d806-477a-b519-017b965b54c3" />
+
+- Update Page
+
+  <img width="1920" height="787" alt="Screenshot (535)" src="https://github.com/user-attachments/assets/f09fc3c3-95cf-4eea-a259-62f888e2349d" />
+
+- Delete Page
+
+  <img width="1920" height="744" alt="Screenshot (536)" src="https://github.com/user-attachments/assets/150c94a0-bf73-4547-bedf-7fa9e2246521" />
+
+- View All Page
+
+  <img width="1920" height="848" alt="Screenshot (532)" src="https://github.com/user-attachments/assets/52e45706-b87e-41d5-bf0b-1904eeead2fc" />
+
+---
+
 ## 🧪 Endpoint Summary
 
 Each HTML page connects to these controller endpoints:
